@@ -422,7 +422,7 @@ Internet-Draft                   PASETO                         May 2022
 
 4.2.  v3.public
 
-   *v1.public* messages SHALL be signed using ECDSA with NIST curve
+   *v3.public* messages SHALL be signed using ECDSA with NIST curve
    P-384 as defined in [RFC6687].  These messages provide authentication
    but do not prevent the contents from being read, including by those
    without either the *public key* or the *secret key*. Refer to the
